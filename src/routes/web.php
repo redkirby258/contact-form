@@ -13,5 +13,4 @@ use App\Http\Controllers\ContactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', [ContactController::class,'index']);
+Route::get('/', [ContactController::class, 'index']);
